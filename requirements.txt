@@ -1,0 +1,5 @@
+flask
+gunicorn
+unittest
+flask_cors
+coverage

@@ -44,9 +44,10 @@ The API's here are being consumed by a completely separate React App to serve th
   ### Other important files and folders:
   
   #### tests
-  Folder containing all the tests. Tests can be run using the following command:  ```` $ coverage run -m unittest discover ````
-  To generate a test coverage report use: ```` $ coverage report ````
-  Current test coverage percentage:
+  Folder containing all the tests. 
+  - Tests can be run using the following command:  ```` $ coverage run -m unittest discover ````
+  - To generate a test coverage report use: ```` $ coverage report ````
+  - Current test coverage percentage:
   
   
   #### main.py

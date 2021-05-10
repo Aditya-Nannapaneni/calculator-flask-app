@@ -1,9 +1,11 @@
 # Calculator Flask App
 
 ## Usage
-The API's here are being consumed by a completely separate React App to serve the results of the calculator. Both the Flask and React API's aredeployed on Heroku and you can use the link below to access the live version.
+The API's here are being consumed by a completely separate React App to serve the results of the calculator. Both the Flask and React apps are deployed on Heroku and you can use the link below to access the live version!
 
     Link: https://calculator-ui-app.herokuapp.com/
+    
+Alternatively one could clone this repository and run the main.py file, which would start a local server. 
     
 ## Constraints
 

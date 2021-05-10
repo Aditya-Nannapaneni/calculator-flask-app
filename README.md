@@ -48,9 +48,11 @@ The API's here are being consumed by a completely separate React App to serve th
   - Tests can be run using the following command:  ```` $ coverage run -m unittest discover ````
   - To generate a test coverage report use: ```` $ coverage report ````
   - Current test coverage percentage:
+  ![](images/testcoverage.png)
   
   
   #### main.py
+  File that has the POST request route, that takes in JSON data and evaluates the expression.
   
   
 

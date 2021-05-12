@@ -5,7 +5,14 @@ The API's here are being consumed by a completely separate React App to serve th
 
     Link: https://calculator-ui-app.herokuapp.com/
     
-Alternatively one could clone this repository and run the main.py file, which would start a local server. 
+Alternatively to run both the apps on your machine, please follow these steps:
+- Clone both the calculator-flask-app and calculator-react-app repos.
+- Open both the apps in an editor of your choice.
+-  To start the react server use the command ```` $ yarn start ```` ,this will start the server on http://localhost:3000.
+-  To start the flask server use the command ```` $ python main.py ```` ,this will start the server on http://0.0.0.0:9696/.
+-  Navigate to App.js in the react app, on line 13 where we have to specify the url to send the POST request to change the existing url to http://0.0.0.0:9696/calculate.
+-  NOTE: You might have to install all the required pacakages, for the flask app use ```` $ pip install [package name] ````,  for the react app use                   ```` $ npm install [package name] ````.
+-  You are now all set to use the app!!
     
 ## Constraints
 
